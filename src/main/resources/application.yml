@@ -1,0 +1,31 @@
+server:
+  port: 2208
+  servlet:
+    context-path: /nexsys/v1
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    use-root-path: true
+  api-docs:
+    path: /swagger.v1+json
+
+spring:
+  application:
+    name: nexsys-e-commerce
+    version: v1
+  feign:
+    client:
+      config:
+        default:
+          connectTimeout: 2000
+          readTimeout: 2000
+          loggerLevel: basic
+
+request-mapping:
+  controller:
+    products: products
+    categories: categories
+
+url:
+  platzy-client: https://api.escuelajs.co/api/v1
