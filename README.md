@@ -93,6 +93,14 @@ To get started with this e-commerce platform, follow the steps below:
     ```bash
     http://localhost:2208
     ```
+    
+6. **Access the swagger documentation:**
+
+    The application has an swagger documentation, you can check it at:
+
+    ```bash
+    http://localhost:2208/nexsys/v1/swagger-ui/index.html
+    ```
 
 
     
